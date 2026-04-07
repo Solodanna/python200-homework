@@ -1,4 +1,4 @@
-"""Prefect pipeline warmup exercise using Prefect tasks and flows."""
+"""Prefect pipeline warmup exercise using Prefect tasks and flows"""
 
 from prefect import flow, task
 import numpy as np

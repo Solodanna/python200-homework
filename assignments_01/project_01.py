@@ -1,4 +1,4 @@
-"""World Happiness project pipeline using Prefect."""
+"""World Happiness project pipeline using Prefect"""
 
 from pathlib import Path
 import re
@@ -43,7 +43,7 @@ def load_happiness_data() -> pd.DataFrame:
 
     if not DATA_DIR.exists() or not DATA_DIR.is_dir():
         raise FileNotFoundError(
-            f"Data directory not found: {DATA_DIR}. Place the happiness CSV files there."
+            f"Data directory not found: {DATA_DIR}. Place the happiness CSV files there"
         )
 
     csv_files = sorted(DATA_DIR.glob("*.csv"))
