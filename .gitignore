@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.idea/
+.vscode/
+.DS_Store
+*.log
+outputs/*
+!assignments_01/outputs/.gitkeep
