@@ -107,7 +107,7 @@ plt.savefig('outputs/g2_vs_g3.png')
 
 # Task 5: Build the Full Model
 feature_cols = ["failures", "Medu", "Fedu", "studytime", "higher", "schoolsup",
-                "internet", "sex", "freetime", "activities", "traveltime", "G1"]
+                "internet", "sex", "freetime", "activities", "traveltime"]
 df_clean = df_filtered.copy()
 X_full = df_clean[feature_cols].values
 y_full = df_clean["G3"].values
@@ -126,12 +126,10 @@ print(f"Full linear model test RMSE: {rmse_full:.3f}")
 print("\nFull model coefficients:")
 for name, coef in zip(feature_cols, full_model.coef_):
     print(f"{name:12s}: {coef:+.3f}")
-# Including G1 dramatically improves R^2 because first period grade is strongly correlated with the final grade.
-# A high R^2 here does not mean G1 causes G3, it means G1 is a strong signal of student ability and how they perform over time.
-# This model is useful for identifying students who might struggle if G1 is already available, but it is not an early-warning model.
-# To intervene before G1 exists, educators would need earlier indicators such as prior academic history, attendance patterns, or classroom assessments.
+# G1 and G2 are intentionally excluded to align with the assignment's early-warning goal.
+# This keeps the model focused on non-grade indicators that are available earlier in the school year.
 # The train/test R^2 comparison also tells us whether the model generalizes; large gaps would indicate overfitting.
-# In production, G1 is valuable if available, but early intervention requires features measured before first term grades are known.
+# With weaker but earlier features, performance is expected to drop compared with models that include prior grades.
 
 # Task 6: Evaluate and Summarize
 plt.figure(figsize=(10, 6))
@@ -149,14 +147,29 @@ plt.savefig('outputs/predicted_vs_actual.png')
 # If the errors are roughly uniform, the scatter should be evenly distributed around the diagonal.
 # If the model struggles more at the high or low end, the pattern will bend or cluster away from the diagonal there.
 
-# Summary comments:
-# The filtered dataset has 357 rows, so the 20% test set contains 71 or 72 observations.
-# The best full model has a test RMSE of about 2.9 points on a 0-20 scale, meaning a typical prediction misses by roughly 3 grade points.
-# Its test R^2 of about 0.15 means it explains only about 15% of the variance in final grades, so there is still a lot of unexplained variation.
-# The largest positive coefficient is internet (+0.834), followed by higher (+0.610), meaning these features are associated with higher predicted grades.
-# The largest negative coefficient is schoolsup (-2.062), meaning students receiving school support tend to have lower predicted final grades after controlling for other variables.
-# One surprising result is that activities and freetime have almost no effect, suggesting those behaviors are not strong independent predictors once academic and demographic factors are accounted for.
-# The train and test R^2 values are close, so the model is not strongly overfitting, but the low R^2 shows it is still a weak predictor overall.
+# Summary (computed from this run):
+n_rows = len(df_filtered)
+test_size = len(y_test_full)
+coef_series = pd.Series(full_model.coef_, index=feature_cols)
+largest_positive_feature = coef_series.idxmax()
+largest_negative_feature = coef_series.idxmin()
+
+print("\nTask 6 summary (excluding G1 and G2):")
+print(f"Filtered rows: {n_rows}; test rows: {test_size}")
+print(f"Full model test RMSE: {rmse_full:.3f}")
+print(f"Full model test R-squared: {test_r2_full:.3f}")
+print(
+    f"Largest positive coefficient: {largest_positive_feature} "
+    f"({coef_series[largest_positive_feature]:+.3f})"
+)
+print(
+    f"Largest negative coefficient: {largest_negative_feature} "
+    f"({coef_series[largest_negative_feature]:+.3f})"
+)
+print(
+    f"Train-test R-squared gap: {abs(train_r2_full - test_r2_full):.3f} "
+    "(small gap suggests limited overfitting)."
+)
 
 # Preprocessing
 # Encode categorical variables
@@ -165,6 +178,8 @@ df_encoded = pd.get_dummies(df_filtered, columns=categorical_cols, drop_first=Tr
 
 # Target variable: G3 (final grade)
 X = df_encoded.drop('G3', axis=1)
+# Keep this consistent with the assignment: exclude prior period grades from predictors.
+X = X.drop(columns=['G1', 'G2'], errors='ignore')
 y = df_encoded['G3']
 
 # Split data
