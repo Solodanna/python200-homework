@@ -57,12 +57,25 @@ The private key stays on my machine and proves my identity, while the public key
 
 ### Question 4
 
-`az account show --output table` returns the current signed-in account details:
+`az account show` (without any output flag) returns:
 
-```text
-EnvironmentName    HomeTenantId                          IsDefault    Name                       State    TenantDefaultDomain                TenantDisplayName    TenantId
------------------  ------------------------------------  -----------  -------------------------  -------  ---------------------------------  -------------------  ------------------------------------
-AzureCloud         0f040ddd-301f-4665-8677-7b21f129d605  True         CTD Nonprofit Sponsorship  Enabled  codethedreamcloud.onmicrosoft.com  Code the Dream Inc   0f040ddd-301f-4665-8677-7b21f129d605
+```json
+{
+	"environmentName": "AzureCloud",
+	"homeTenantId": "0f040ddd-301f-4665-8677-7b21f129d605",
+	"id": "4e07c58c-751e-4765-b40c-632b9ee6fe6e",
+	"isDefault": true,
+	"managedByTenants": [],
+	"name": "CTD Nonprofit Sponsorship",
+	"state": "Enabled",
+	"tenantDefaultDomain": "codethedreamcloud.onmicrosoft.com",
+	"tenantDisplayName": "Code the Dream Inc",
+	"tenantId": "0f040ddd-301f-4665-8677-7b21f129d605",
+	"user": {
+		"name": "solodanna@outlook.com",
+		"type": "user"
+	}
+}
 ```
 
-The default subscription is CTD Nonprofit Sponsorship, and the account is enabled on AzureCloud.
+Adding `--output table` changes the display format from JSON/object output to a compact human-readable table.
