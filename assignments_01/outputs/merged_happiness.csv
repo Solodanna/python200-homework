@@ -1,0 +1,114 @@
+ranking,country,region,happiness_score,gdp_per_capita,social_support,healthy_life_expectancy,freedom,generosity,perceptions_of_corruption,year
+1,Finland,Western Europe,7.77,1.340,1.587,0.986,0.596,0.153,0.393,2018
+2,Denmark,Western Europe,7.60,1.383,1.573,0.996,0.592,0.252,0.410,2018
+3,Norway,Western Europe,7.55,1.488,1.582,1.028,0.603,0.271,0.341,2018
+4,Iceland,Western Europe,7.49,1.380,1.624,1.026,0.591,0.354,0.118,2018
+5,Netherlands,Western Europe,7.49,1.396,1.522,0.999,0.557,0.322,0.298,2018
+6,Switzerland,Western Europe,7.48,1.452,1.526,1.052,0.572,0.263,0.343,2018
+7,Sweden,Western Europe,7.34,1.387,1.487,1.009,0.574,0.267,0.373,2018
+8,New Zealand,North America and ANZ,7.31,1.303,1.557,1.026,0.585,0.330,0.380,2018
+9,Canada,North America and ANZ,7.28,1.365,1.505,1.039,0.584,0.285,0.308,2018
+10,Australia,North America and ANZ,7.23,1.372,1.548,1.036,0.557,0.332,0.302,2018
+11,Germany,Western Europe,7.08,1.373,1.454,1.022,0.495,0.261,0.265,2018
+12,United States,North America and ANZ,6.89,1.398,1.471,0.886,0.454,0.281,0.109,2018
+13,Czech Republic,Central and Eastern Europe,6.85,1.269,1.487,0.920,0.457,0.046,0.037,2018
+14,Israel,Middle East and North Africa,7.14,1.319,1.473,1.055,0.401,0.151,0.064,2018
+15,Costa Rica,Latin America and Caribbean,7.17,1.034,1.441,1.093,0.558,0.144,0.093,2018
+16,Brazil,Latin America and Caribbean,6.35,1.004,1.439,0.893,0.490,0.099,0.089,2018
+17,Mexico,Latin America and Caribbean,6.59,1.069,1.323,0.861,0.433,0.074,0.070,2018
+18,Singapore,Southeast Asia,6.34,1.572,1.463,1.141,0.556,0.271,0.453,2018
+19,Japan,East Asia,5.89,1.327,1.419,1.088,0.445,0.069,0.180,2018
+20,Russia,Commonwealth of Independent States,5.46,1.183,1.452,0.694,0.286,0.084,0.031,2018
+21,South Africa,Sub-Saharan Africa,4.91,0.960,1.351,0.469,0.393,0.065,0.043,2018
+22,India,South Asia,4.19,0.905,0.945,0.607,0.398,0.202,0.080,2018
+23,Afghanistan,South Asia,2.70,0.350,0.517,0.361,0.000,0.158,0.025,2018
+1,Finland,Western Europe,7.77,1.340,1.587,0.986,0.596,0.153,0.393,2019
+2,Denmark,Western Europe,7.60,1.383,1.573,0.996,0.592,0.252,0.410,2019
+3,Norway,Western Europe,7.55,1.488,1.582,1.028,0.603,0.271,0.341,2019
+4,Iceland,Western Europe,7.49,1.380,1.624,1.026,0.591,0.354,0.118,2019
+5,Netherlands,Western Europe,7.49,1.396,1.522,0.999,0.557,0.322,0.298,2019
+6,Switzerland,Western Europe,7.48,1.452,1.526,1.052,0.572,0.263,0.343,2019
+7,Sweden,Western Europe,7.34,1.387,1.487,1.009,0.574,0.267,0.373,2019
+8,New Zealand,North America and ANZ,7.31,1.303,1.557,1.026,0.585,0.330,0.380,2019
+9,Canada,North America and ANZ,7.28,1.365,1.505,1.039,0.584,0.285,0.308,2019
+10,Australia,North America and ANZ,7.23,1.372,1.548,1.036,0.557,0.332,0.302,2019
+11,Germany,Western Europe,7.08,1.373,1.454,1.022,0.495,0.261,0.265,2019
+12,United States,North America and ANZ,6.89,1.398,1.471,0.886,0.454,0.281,0.109,2019
+13,Czech Republic,Central and Eastern Europe,6.85,1.269,1.487,0.920,0.457,0.046,0.037,2019
+14,Israel,Middle East and North Africa,7.14,1.319,1.473,1.055,0.401,0.151,0.064,2019
+15,Costa Rica,Latin America and Caribbean,7.17,1.034,1.441,1.093,0.558,0.144,0.093,2019
+16,Brazil,Latin America and Caribbean,6.35,1.004,1.439,0.893,0.490,0.099,0.089,2019
+17,Mexico,Latin America and Caribbean,6.59,1.069,1.323,0.861,0.433,0.074,0.070,2019
+18,Singapore,Southeast Asia,6.34,1.572,1.463,1.141,0.556,0.271,0.453,2019
+19,Japan,East Asia,5.89,1.327,1.419,1.088,0.445,0.069,0.180,2019
+20,Russia,Commonwealth of Independent States,5.46,1.183,1.452,0.694,0.286,0.084,0.031,2019
+21,South Africa,Sub-Saharan Africa,4.91,0.960,1.351,0.469,0.393,0.065,0.043,2019
+22,India,South Asia,4.19,0.905,0.945,0.607,0.398,0.202,0.080,2019
+23,Afghanistan,South Asia,2.70,0.350,0.517,0.361,0.000,0.158,0.025,2019
+1,Finland,Western Europe,7.84,1.285,1.500,0.961,0.662,0.160,0.477,2020
+2,Denmark,Western Europe,7.65,1.324,1.527,0.979,0.665,0.283,0.495,2020
+3,Switzerland,Western Europe,7.56,1.391,1.474,1.045,0.620,0.263,0.386,2020
+4,Iceland,Western Europe,7.50,1.326,1.582,1.011,0.624,0.354,0.190,2020
+5,Norway,Western Europe,7.49,1.424,1.495,1.008,0.670,0.271,0.397,2020
+6,Netherlands,Western Europe,7.46,1.361,1.488,0.999,0.557,0.322,0.298,2020
+7,Sweden,Western Europe,7.35,1.358,1.480,1.009,0.574,0.267,0.373,2020
+8,New Zealand,North America and ANZ,7.30,1.270,1.543,1.020,0.637,0.330,0.389,2020
+9,Austria,Western Europe,7.29,1.376,1.475,1.016,0.532,0.244,0.226,2020
+10,Canada,North America and ANZ,7.23,1.334,1.499,1.032,0.609,0.285,0.308,2020
+11,Germany,Western Europe,7.16,1.373,1.454,1.022,0.495,0.261,0.265,2020
+12,United States,North America and ANZ,6.94,1.396,1.471,0.886,0.454,0.281,0.124,2020
+13,Israel,Middle East and North Africa,7.08,1.295,1.448,1.073,0.418,0.151,0.075,2020
+14,Costa Rica,Latin America and Caribbean,7.07,1.004,1.394,1.077,0.558,0.144,0.093,2020
+15,Czech Republic,Central and Eastern Europe,6.91,1.269,1.489,0.920,0.457,0.046,0.037,2020
+16,Mexico,Latin America and Caribbean,6.46,1.052,1.328,0.882,0.376,0.074,0.070,2020
+17,Brazil,Latin America and Caribbean,6.30,1.000,1.430,0.893,0.490,0.099,0.089,2020
+18,Singapore,Southeast Asia,6.38,1.570,1.463,1.141,0.556,0.271,0.453,2020
+19,Japan,East Asia,5.87,1.327,1.419,1.088,0.445,0.069,0.180,2020
+20,Russia,Commonwealth of Independent States,5.55,1.165,1.459,0.702,0.276,0.084,0.031,2020
+21,South Africa,Sub-Saharan Africa,4.81,0.930,1.340,0.474,0.380,0.065,0.043,2020
+22,India,South Asia,3.82,0.896,0.937,0.611,0.367,0.202,0.080,2020
+23,Afghanistan,South Asia,2.52,0.350,0.517,0.361,0.000,0.158,0.022,2020
+1,Finland,Western Europe,7.84,1.287,1.527,0.974,0.668,0.202,0.481,2021
+2,Iceland,Western Europe,7.58,1.327,1.593,1.040,0.677,0.406,0.165,2021
+3,Denmark,Western Europe,7.62,1.350,1.543,0.987,0.683,0.296,0.478,2021
+4,Switzerland,Western Europe,7.57,1.415,1.503,1.040,0.627,0.247,0.352,2021
+5,Netherlands,Western Europe,7.46,1.387,1.488,0.980,0.579,0.322,0.310,2021
+6,Norway,Western Europe,7.39,1.430,1.496,1.015,0.670,0.271,0.375,2021
+7,Sweden,Western Europe,7.36,1.387,1.487,1.009,0.574,0.267,0.373,2021
+8,New Zealand,North America and ANZ,7.28,1.268,1.544,1.028,0.634,0.330,0.377,2021
+9,Canada,North America and ANZ,7.10,1.324,1.494,1.039,0.584,0.285,0.289,2021
+10,Germany,Western Europe,7.16,1.373,1.454,1.022,0.495,0.261,0.265,2021
+11,Israel,Middle East and North Africa,7.16,1.301,1.488,1.075,0.427,0.151,0.075,2021
+12,United States,North America and ANZ,6.95,1.396,1.471,0.886,0.454,0.281,0.124,2021
+13,Czech Republic,Central and Eastern Europe,6.97,1.271,1.487,0.920,0.466,0.055,0.043,2021
+14,Costa Rica,Latin America and Caribbean,7.07,1.022,1.397,1.083,0.558,0.144,0.079,2021
+15,Brazil,Latin America and Caribbean,6.33,1.000,1.430,0.895,0.490,0.099,0.089,2021
+16,Mexico,Latin America and Caribbean,6.32,1.052,1.323,0.861,0.433,0.074,0.070,2021
+17,Singapore,Southeast Asia,6.38,1.572,1.463,1.141,0.556,0.271,0.453,2021
+18,Japan,East Asia,5.94,1.327,1.419,1.088,0.449,0.069,0.174,2021
+19,Russia,Commonwealth of Independent States,5.48,1.169,1.454,0.693,0.285,0.089,0.030,2021
+20,South Africa,Sub-Saharan Africa,4.96,0.950,1.345,0.473,0.383,0.065,0.044,2021
+21,India,South Asia,3.81,0.905,0.942,0.609,0.368,0.202,0.080,2021
+22,Afghanistan,South Asia,2.40,0.350,0.517,0.361,0.000,0.158,0.022,2021
+1,Finland,Western Europe,7.82,1.292,1.531,0.978,0.670,0.200,0.472,2022
+2,Denmark,Western Europe,7.64,1.358,1.549,0.990,0.686,0.296,0.477,2022
+3,Iceland,Western Europe,7.55,1.320,1.598,1.046,0.680,0.400,0.169,2022
+4,Israel,Middle East and North Africa,7.36,1.300,1.493,1.072,0.419,0.151,0.064,2022
+5,Netherlands,Western Europe,7.42,1.393,1.495,0.985,0.581,0.322,0.308,2022
+6,Norway,Western Europe,7.37,1.434,1.499,1.018,0.672,0.271,0.375,2022
+7,Switzerland,Western Europe,7.51,1.419,1.508,1.046,0.629,0.247,0.346,2022
+8,Sweden,Western Europe,7.38,1.391,1.495,1.011,0.575,0.272,0.375,2022
+9,New Zealand,North America and ANZ,7.20,1.271,1.548,1.025,0.632,0.330,0.373,2022
+10,Canada,North America and ANZ,7.01,1.326,1.498,1.038,0.589,0.285,0.283,2022
+11,Germany,Western Europe,7.03,1.375,1.455,1.024,0.497,0.261,0.265,2022
+12,United States,North America and ANZ,6.98,1.401,1.475,0.888,0.456,0.281,0.130,2022
+13,Czech Republic,Central and Eastern Europe,6.89,1.273,1.490,0.922,0.467,0.050,0.041,2022
+14,Costa Rica,Latin America and Caribbean,6.91,1.016,1.398,1.085,0.558,0.144,0.093,2022
+15,Brazil,Latin America and Caribbean,6.40,1.008,1.438,0.900,0.490,0.099,0.089,2022
+16,Mexico,Latin America and Caribbean,6.31,1.055,1.330,0.863,0.435,0.074,0.072,2022
+17,Singapore,Southeast Asia,6.48,1.579,1.470,1.145,0.559,0.271,0.456,2022
+18,Japan,East Asia,6.04,1.330,1.422,1.090,0.448,0.069,0.178,2022
+19,Russia,Commonwealth of Independent States,5.37,1.163,1.447,0.681,0.285,0.083,0.032,2022
+20,South Africa,Sub-Saharan Africa,5.03,0.955,1.348,0.476,0.385,0.065,0.044,2022
+21,India,South Asia,4.04,0.915,0.948,0.612,0.370,0.202,0.082,2022
+22,Afghanistan,South Asia,1.86,0.350,0.517,0.361,0.000,0.158,0.025,2022
