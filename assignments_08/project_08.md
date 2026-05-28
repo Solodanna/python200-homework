@@ -14,8 +14,8 @@ Use this file for your Part 1 and Part 2 project write-up.
 
 - Method:
   I looked up East US prices and multiplied unit rates by usage.
-  Scenario A formula: VM hourly rate _ 160.
-  Scenario B formula: (GPU VM hourly rate _ 730) + (SQL hourly rate _ 730) + (Blob per-GB-month rate _ 1024 GB).
+  Scenario A formula: VM hourly rate x 160.
+  Scenario B formula: (GPU VM hourly rate x 730) + (SQL hourly rate x 730) + (Blob per-GB-month rate x 1024 GB).
 
 - Results:
   Scenario A (Standard_B1s Linux):
@@ -37,10 +37,18 @@ Scenario B total estimate (VM + SQL + Blob): $2,699.57/month
 - Conclusion:
   The biggest surprise was how dominant GPU compute is. The Scenario B GPU VM alone is about 1,343x the cost of Scenario A ($2,233.80 vs $1.66), and the full high-end stack is about 1,626x Scenario A. Storage at 1 TB was comparatively small in this setup, while always-on GPU and database compute drove almost all of the monthly cost.
 
+## Part 1 Script Output Check
+
+I ran project_08.py in Cloud Shell with the two VM hourly rates from the pricing workup.
+The script printed:
+
+- Scenario A (lightweight): $1.66
+- Scenario B (GPU VM only): $2233.80
+- Scenario B VM costs 1342.4x more than Scenario A
+
+These outputs match the VM-only calculations in my written estimates (Scenario A $1.66 and Scenario B GPU VM $2,233.80). The higher total for Scenario B in the write-up ($2,699.57) is expected because that total also includes Azure SQL and Blob Storage, while the script intentionally computes VM costs only.
+
 ## Part 2: Video Link
 
-- Video URL:
+- Video URL: https://youtu.be/bCutGrB2Vks
 
-## Notes
-
--

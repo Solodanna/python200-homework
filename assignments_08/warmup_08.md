@@ -45,7 +45,7 @@ The cloud is usually not the best choice when you need strict on-prem/local cont
 
 ### Question 1
 
-An Azure subscription is the top-level billing and governance container, while a resource group is a smaller container that organizes related resources inside a subscription. The subscription is mine alone, and the CTD resource group is shared by the class.
+An Azure subscription is the top-level billing and governance container, while a resource group is a smaller container that organizes related resources inside a subscription. In our class setup, the Code the Dream subscription is shared, and each student has their own resource group.
 
 ### Question 2
 
