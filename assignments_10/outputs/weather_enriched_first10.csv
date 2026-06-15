@@ -1,0 +1,11 @@
+time,temperature_c,precipitation_mm,summary,risk_level,recommendation
+2026-05-31T00:00,23.3,0.0,"At 2026-05-31T00:00, temperature is 23.3 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T01:00,21.7,0.0,"At 2026-05-31T01:00, temperature is 21.7 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T02:00,21.0,0.0,"At 2026-05-31T02:00, temperature is 21.0 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T03:00,19.9,0.0,"At 2026-05-31T03:00, temperature is 19.9 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T04:00,20.1,0.0,"At 2026-05-31T04:00, temperature is 20.1 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T05:00,18.8,0.0,"At 2026-05-31T05:00, temperature is 18.8 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T06:00,18.2,0.0,"At 2026-05-31T06:00, temperature is 18.2 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T07:00,17.7,0.0,"At 2026-05-31T07:00, temperature is 17.7 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T08:00,17.7,0.0,"At 2026-05-31T08:00, temperature is 17.7 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
+2026-05-31T09:00,16.8,0.0,"At 2026-05-31T09:00, temperature is 16.8 C with 0.0 mm precipitation.",low,Normal conditions. Proceed with regular plans.
