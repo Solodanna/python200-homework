@@ -1,4 +1,7 @@
-"""Project 09: Extract + Load pipeline using Open-Meteo and Azure Blob Storage."""
+"""Project 09: Extract + Load pipeline using Open-Meteo and Azure Blob Storage.
+
+Video URL: https://youtu.be/Na5DZvlO7bM
+"""
 
 from __future__ import annotations
 
