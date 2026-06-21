@@ -1,3 +1,4 @@
+# Demo video: https://studio.youtube.com/video/Na5DZvlO7bM/edit
 """Week 11 ETL capstone: Extract from Open-Meteo, transform with OpenAI, load to Azure Blob."""
 
 from __future__ import annotations
